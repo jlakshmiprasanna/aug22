@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: rgb(232, 121, 176);
+    text-align: center;
+    height: 80px;
+}
+h1 {
+   padding: 30px;
+   margin: 0;
+}
+.container{
+    background-color: lightblue;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.section{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    display: inline-block;
+    vertical-align: top;
+}
+#section1{
+    width: 500px;
+    height: 250px;
+}
+#section1:hover{
+    background-color: bisque;
+    transform: rotate(10deg);
+    transition-duration: 5s;
+    transition-property: all;
+    transition-delay: 2s;
+    transition-timing-function: ease-in-out;
+}
+#image-container{
+    width: 60%;
+    height: auto;
+    transition: all;
+    overflow: hidden; 
+}
+#image-container:hover {
+   transform: rotate(10deg); 
+   transition-duration: 5s;
+   transition-delay: 2s;
+   border-radius: 50% 50% 50% 50%;
+}
+#section2{
+    width: 300px;
+    height: 250px;
+    transform: scale(0.7,0.7);
+    transition-duration: 5s;
+    transition-property: all;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+}
+#section2:hover{
+    background-color: bisque;
+    transform: scale(1.2,1.2);
+}
+#section3{
+    width: 600px;
+    height: 100px;
+    transition-duration: 5s;
+    transition-property: all;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+}
+#section3:hover{
+    transform: skewY(10deg);
+    opacity:0.6;
+
+}
+#section4{
+    width: 600px;
+    height: 100px;
+    transition-duration: 5s;
+    transition-property: all;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+}
+#section4:hover{
+    translate: 8px 12px;
+    color: red;
+}
+.image-container img {
+ width: 60%;
+ height: auto;
+ transition: border-radius 0.5s, transform 0.5s;
+}
+footer{
+    background-color: rgb(232, 121, 176);
+    text-align: center;
+    margin: 0px;
+    height: 65px;
+    width: 100%;
+    padding: 10px;
+}
